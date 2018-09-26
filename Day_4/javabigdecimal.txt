@@ -1,0 +1,9 @@
+        s[n] = "Nope";
+s[n+1] = "Nope";
+Arrays.sort(s,((String number1,String number2) ->  {
+    if (!(number1.equals("Nope")) && !(number2.equals("Nope"))){
+        BigDecimal value1 = new BigDecimal(number1);
+            BigDecimal value2 = new BigDecimal(number2);
+            return value2.compareTo(value1);}
+        return 0;})
+        );
